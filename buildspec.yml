@@ -5,6 +5,6 @@ phases:
       python: 3.9
   build:
     commands:
-      - aws s3 cp Text.txt s3://YOUR-BUCKET-NAME/
+      - aws s3 cp Text.txt s3://buildanu/
   post_build:
     commands:
